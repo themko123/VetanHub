@@ -148,4 +148,5 @@ tab:Toggle("Auto RandomFruits",false, function(t)
 	end)
 end)
 
+end
 
