@@ -139,4 +139,4 @@ local tab = win:Tab("Auto Farm)
 
 tab:Button("AutoFarm", function()
 lib:Notification("KuyTu", "Stupid!", "Noob!")
-end
+end)
