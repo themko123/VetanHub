@@ -134,15 +134,3 @@ end)
 tab:Button("OpeninventoryFruits", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Main.FruitInventory.Visible = true
 end)
-
-tab:Toggle("Auto RandomFruits",false, function(t)
-("Auto Buy Random Devil Fruit",false,function(v)
-		DevilAutoBuy = v
-	end)
-	spawn(function()
-		while wait() do
-			if DevilAutoBuy then wait()
-				game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Cousin","Buy")
-			end
-		end
-	end)
