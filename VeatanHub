@@ -137,6 +137,6 @@ end)
 
 local tab = win:Tab("Auto Farm)
 
-tab:Toggle("Toggle",false, function(t)
-Notification("Notification", "Hello!", "Hi!")
-end)
+tab:Button("AutoFarm", function()
+lib:Notification("KuyTu", "Stupid!", "Noob!")
+end
