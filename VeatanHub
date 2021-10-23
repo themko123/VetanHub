@@ -134,3 +134,9 @@ end)
 tab:Button("OpeninventoryFruits", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Main.FruitInventory.Visible = true
 end)
+
+local tab = win:Tab("Auto Farm")
+
+tab:Button("AutoFarm", function()
+lib:Notification("KuyTu", "Stupid!", "Noob!")
+end)
